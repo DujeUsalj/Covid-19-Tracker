@@ -1,0 +1,24 @@
+.InfoFlag img {
+  width: 100px;
+  border-radius: 5px;
+}
+.InfoFlag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+.InfoContainer {
+  width: 170px;
+}
+.InfoConfirmed,
+.InfoRecovered,
+.InfoDeaths {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.InfoName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}

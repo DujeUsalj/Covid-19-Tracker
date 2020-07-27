@@ -1,0 +1,28 @@
+.InfoBox {
+  flex: 1;
+  cursor: pointer;
+}
+.InfoBox:not(:last-child) {
+  margin-right: 15px;
+}
+.InfoBoxActive {
+  border-top: 10px solid greenyellow;
+}
+.Cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.Total {
+  color: #6c757d;
+  font-weight: 700 !important ;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
+.Red {
+  border-color: red;
+}
+.NotRed {
+  color: lightgreen !important;
+}
